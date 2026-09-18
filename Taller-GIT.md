@@ -1,4 +1,4 @@
-# GIT: Ciclo de Vida y Comandos Básicos
+# GIT:Clon Ciclo de Vida y Comandos Básicos
 ### Actividad en Clase
 Universidad el Bosque		
 <br/>

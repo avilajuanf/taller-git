@@ -1,0 +1,29 @@
+/* Eliminar márgenes y rellenos por defecto de todos los elementos */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Mejorar la herencia del tamaño de letra y la visualización */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Evitar problemas con imágenes y elementos multimedia */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Remover estilos de listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Resetear enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}

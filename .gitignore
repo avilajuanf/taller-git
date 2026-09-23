@@ -1,2 +1,4 @@
-config.env
-node_modules
+#Ignorar la carpeta node_modules
+node_modules/
+#Ignorar archivo config.env
+config.env/

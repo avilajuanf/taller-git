@@ -1,4 +1,11 @@
-selector {
-  propiedad: valor;
+.footer {
+  display: flex;
+  justify-content: space-between; /* Distribuye espacio entre elementos */
+  align-items: center;           /* Centra verticalmente el contenido */
+  flex-wrap: wrap;               /* Hace que el contenido baje si no hay espacio */
+  padding: 40px 20px;            /* Espaciado interno (arriba/abajo - lados) */
+  background-color: #1a1a1a;     /* Fondo gris oscuro */
+  color: #ffffff;                /* Texto blanco */
+  font-family: Arial, sans-serif;
+  font-size: 14px;
 }
-
